@@ -1,0 +1,287 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		17E4C856148DFE6E00ED155B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17E4C855148DFE6E00ED155B /* UIKit.framework */; };
+		17E4C858148DFE6E00ED155B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17E4C857148DFE6E00ED155B /* Foundation.framework */; };
+		17E4C85A148DFE6E00ED155B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17E4C859148DFE6E00ED155B /* CoreGraphics.framework */; };
+		17E4C860148DFE6E00ED155B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 17E4C85E148DFE6E00ED155B /* InfoPlist.strings */; };
+		17E4C862148DFE6E00ED155B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 17E4C861148DFE6E00ED155B /* main.m */; };
+		17E4C866148DFE6E00ED155B /* FMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 17E4C865148DFE6E00ED155B /* FMAppDelegate.m */; };
+		17E4C869148DFE6E00ED155B /* FMInfoPanelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 17E4C868148DFE6E00ED155B /* FMInfoPanelViewController.m */; };
+		17E4C86C148DFE6E00ED155B /* FMInfoPanelView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 17E4C86A148DFE6E00ED155B /* FMInfoPanelView.xib */; };
+		17E4C874148DFEF400ED155B /* infoPanel.png in Resources */ = {isa = PBXBuildFile; fileRef = 17E4C872148DFEF400ED155B /* infoPanel.png */; };
+		17E4C875148DFEF400ED155B /* infoPanel@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 17E4C873148DFEF400ED155B /* infoPanel@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		17E4C851148DFE6E00ED155B /* FMScrollIndicatorInfoPanel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FMScrollIndicatorInfoPanel.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		17E4C855148DFE6E00ED155B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		17E4C857148DFE6E00ED155B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		17E4C859148DFE6E00ED155B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		17E4C85D148DFE6E00ED155B /* FMScrollIndicatorInfoPanel-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FMScrollIndicatorInfoPanel-Info.plist"; sourceTree = "<group>"; };
+		17E4C85F148DFE6E00ED155B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		17E4C861148DFE6E00ED155B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		17E4C863148DFE6E00ED155B /* FMScrollIndicatorInfoPanel-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FMScrollIndicatorInfoPanel-Prefix.pch"; sourceTree = "<group>"; };
+		17E4C864148DFE6E00ED155B /* FMAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FMAppDelegate.h; sourceTree = "<group>"; };
+		17E4C865148DFE6E00ED155B /* FMAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FMAppDelegate.m; sourceTree = "<group>"; };
+		17E4C867148DFE6E00ED155B /* FMInfoPanelViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FMInfoPanelViewController.h; sourceTree = "<group>"; };
+		17E4C868148DFE6E00ED155B /* FMInfoPanelViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FMInfoPanelViewController.m; sourceTree = "<group>"; };
+		17E4C86B148DFE6E00ED155B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/FMInfoPanelView.xib; sourceTree = "<group>"; };
+		17E4C872148DFEF400ED155B /* infoPanel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = infoPanel.png; sourceTree = "<group>"; };
+		17E4C873148DFEF400ED155B /* infoPanel@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "infoPanel@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		17E4C84E148DFE6E00ED155B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17E4C856148DFE6E00ED155B /* UIKit.framework in Frameworks */,
+				17E4C858148DFE6E00ED155B /* Foundation.framework in Frameworks */,
+				17E4C85A148DFE6E00ED155B /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		17E4C846148DFE6D00ED155B = {
+			isa = PBXGroup;
+			children = (
+				17E4C85B148DFE6E00ED155B /* FMScrollIndicatorInfoPanel */,
+				17E4C854148DFE6E00ED155B /* Frameworks */,
+				17E4C852148DFE6E00ED155B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		17E4C852148DFE6E00ED155B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				17E4C851148DFE6E00ED155B /* FMScrollIndicatorInfoPanel.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		17E4C854148DFE6E00ED155B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				17E4C855148DFE6E00ED155B /* UIKit.framework */,
+				17E4C857148DFE6E00ED155B /* Foundation.framework */,
+				17E4C859148DFE6E00ED155B /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		17E4C85B148DFE6E00ED155B /* FMScrollIndicatorInfoPanel */ = {
+			isa = PBXGroup;
+			children = (
+				17E4C864148DFE6E00ED155B /* FMAppDelegate.h */,
+				17E4C865148DFE6E00ED155B /* FMAppDelegate.m */,
+				17E4C867148DFE6E00ED155B /* FMInfoPanelViewController.h */,
+				17E4C868148DFE6E00ED155B /* FMInfoPanelViewController.m */,
+				17E4C86A148DFE6E00ED155B /* FMInfoPanelView.xib */,
+				17E4C85C148DFE6E00ED155B /* Supporting Files */,
+			);
+			path = FMScrollIndicatorInfoPanel;
+			sourceTree = "<group>";
+		};
+		17E4C85C148DFE6E00ED155B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				17E4C872148DFEF400ED155B /* infoPanel.png */,
+				17E4C873148DFEF400ED155B /* infoPanel@2x.png */,
+				17E4C85D148DFE6E00ED155B /* FMScrollIndicatorInfoPanel-Info.plist */,
+				17E4C85E148DFE6E00ED155B /* InfoPlist.strings */,
+				17E4C861148DFE6E00ED155B /* main.m */,
+				17E4C863148DFE6E00ED155B /* FMScrollIndicatorInfoPanel-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		17E4C850148DFE6E00ED155B /* FMScrollIndicatorInfoPanel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 17E4C86F148DFE6E00ED155B /* Build configuration list for PBXNativeTarget "FMScrollIndicatorInfoPanel" */;
+			buildPhases = (
+				17E4C84D148DFE6E00ED155B /* Sources */,
+				17E4C84E148DFE6E00ED155B /* Frameworks */,
+				17E4C84F148DFE6E00ED155B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FMScrollIndicatorInfoPanel;
+			productName = FMScrollIndicatorInfoPanel;
+			productReference = 17E4C851148DFE6E00ED155B /* FMScrollIndicatorInfoPanel.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		17E4C848148DFE6D00ED155B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 17E4C84B148DFE6D00ED155B /* Build configuration list for PBXProject "FMScrollIndicatorInfoPanel" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 17E4C846148DFE6D00ED155B;
+			productRefGroup = 17E4C852148DFE6E00ED155B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				17E4C850148DFE6E00ED155B /* FMScrollIndicatorInfoPanel */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		17E4C84F148DFE6E00ED155B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17E4C860148DFE6E00ED155B /* InfoPlist.strings in Resources */,
+				17E4C86C148DFE6E00ED155B /* FMInfoPanelView.xib in Resources */,
+				17E4C874148DFEF400ED155B /* infoPanel.png in Resources */,
+				17E4C875148DFEF400ED155B /* infoPanel@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		17E4C84D148DFE6E00ED155B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17E4C862148DFE6E00ED155B /* main.m in Sources */,
+				17E4C866148DFE6E00ED155B /* FMAppDelegate.m in Sources */,
+				17E4C869148DFE6E00ED155B /* FMInfoPanelViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		17E4C85E148DFE6E00ED155B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				17E4C85F148DFE6E00ED155B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		17E4C86A148DFE6E00ED155B /* FMInfoPanelView.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				17E4C86B148DFE6E00ED155B /* en */,
+			);
+			name = FMInfoPanelView.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		17E4C86D148DFE6E00ED155B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		17E4C86E148DFE6E00ED155B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		17E4C870148DFE6E00ED155B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FMScrollIndicatorInfoPanel/FMScrollIndicatorInfoPanel-Prefix.pch";
+				INFOPLIST_FILE = "FMScrollIndicatorInfoPanel/FMScrollIndicatorInfoPanel-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		17E4C871148DFE6E00ED155B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FMScrollIndicatorInfoPanel/FMScrollIndicatorInfoPanel-Prefix.pch";
+				INFOPLIST_FILE = "FMScrollIndicatorInfoPanel/FMScrollIndicatorInfoPanel-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		17E4C84B148DFE6D00ED155B /* Build configuration list for PBXProject "FMScrollIndicatorInfoPanel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17E4C86D148DFE6E00ED155B /* Debug */,
+				17E4C86E148DFE6E00ED155B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		17E4C86F148DFE6E00ED155B /* Build configuration list for PBXNativeTarget "FMScrollIndicatorInfoPanel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17E4C870148DFE6E00ED155B /* Debug */,
+				17E4C871148DFE6E00ED155B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 17E4C848148DFE6D00ED155B /* Project object */;
+}
